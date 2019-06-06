@@ -7,6 +7,7 @@ xhr.send();
 
 xhr.onload = function(){
     if(xhr.status === 200) {
-        console.log('success')
+        var swapiObj = JSON.parse(xhr.responseText);
+        console.log(swapiObj);
     }
 }
