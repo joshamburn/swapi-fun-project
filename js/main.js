@@ -1,6 +1,6 @@
 const baseUrl = 'https://swapi.co/api/';
 
-const xhr = XMLHttpRequest();
+const xhr = new XMLHttpRequest();
 xhr.open('GET', baseUrl, true);
 xhr.responseType = 'text';
 xhr.send();
