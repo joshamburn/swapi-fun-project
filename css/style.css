@@ -5,7 +5,11 @@
  *
  * Made By MaterializeCSS.com
  */
-
+h1 {
+  font-family: 'Press Start 2P', cursive; 
+  font-size: 8em; 
+  margin: 15% auto
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
